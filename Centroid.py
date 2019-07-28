@@ -6,6 +6,8 @@ import numpy as np
 from scipy.spatial import distance
 import matplotlib.pyplot as plt
 
+__author__ = "Sai Reddy"
+
 cap = cv2.VideoCapture(0)
 #cap = cv2.VideoCapture("/home/saireddy/Desktop/walk.mp4")
 cascade = cv2.CascadeClassifier("/home/saireddy/Action/LSTM+CNN/haarcascade_frontalface_alt.xml")
